@@ -2,10 +2,10 @@ public class Main {
     public static void main(String[] args) {
 
         int account = 100; //сумма на счете
-        int payment = 50000; // сумма поплнения
+        int payment = 1100; // сумма поплнения
 
         int gift;
-        if (payment >= 1000) {
+        if (payment > 1000) {
 
             gift = payment / 100 + account + payment;
         } else {
