@@ -6,11 +6,9 @@ public class Main {
 
         int gift;
         if (payment > 1000) {
-
             gift = payment / 100 + account + payment;
         } else {
             gift = payment + account;
-
         }
         System.out.println("Итоговая сумма на счете, " + gift + ".");
     }
